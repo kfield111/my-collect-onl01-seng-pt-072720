@@ -3,5 +3,5 @@ def my_collect (collection)
   collection.each do |language|
     new_array.push "#{language}"
   end
-  new_array.upcase
+  new_array
 end
