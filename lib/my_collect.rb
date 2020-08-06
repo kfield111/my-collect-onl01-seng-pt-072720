@@ -1,7 +1,7 @@
 def my_collect (collection)
   collection = []
   collection.each do |language|
-    yield "#{language}"
+    collection.push "#{language}"
   end
   collection
 end
