@@ -1,7 +1,7 @@
 def my_collect (collection)
-  collection = []
+  new_array = []
   collection.each do |language|
-    collection.push "#{language}"
+    new_array.push "#{language}"
   end
-  collection
+  new_array
 end
