@@ -1,5 +1,5 @@
 def my_collect (collection)
-  collection.each do |variable|
-    puts "#{variable}"
+  collection.each do |language|
+    puts "#{language}"
   end
 end
